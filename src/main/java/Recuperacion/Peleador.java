@@ -32,4 +32,9 @@ public class Peleador {
     public String getHabilidadEspecial() {
         return habilidadEspecial;
     }
+
+    @Override
+    public String toString() {
+        return "Participante: " + getNombre() + " (" + getNivelPoder() + ") nivel de Poder.";
+    }
 }
