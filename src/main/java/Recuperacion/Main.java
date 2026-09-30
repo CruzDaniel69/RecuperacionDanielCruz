@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int opcion = 0;
+        Torneo tor1 = new Torneo();
         Scanner scan = new Scanner(System.in);
         System.out.println("===================");
         System.out.println("     BIENVENIDO    ");
@@ -26,10 +27,12 @@ public class Main {
                 case 2:
                     break;
                 case 3:
+                    tor1.Torneo();
                     break;
                 case 4:
                     break;
                 case 5:
+                    System.out.println("Saliendo...");
                     break;
                 default:
                     System.out.println("Ingrese una opcion valida :)");

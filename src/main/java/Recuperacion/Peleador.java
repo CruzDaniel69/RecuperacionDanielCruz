@@ -1,6 +1,6 @@
 package Recuperacion;
 
-public class Peleador {
+public class Peleador extends Torneo{
     private String nombre;
     private Long nivelPoder;
     private Long vida;

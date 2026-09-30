@@ -4,7 +4,8 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.TreeMap;
 
-public class Torneo {
+public class Torneo{
+
     Scanner scan = new Scanner(System.in);
     public String nombre;
     TreeMap<String, Peleador> participantes = new TreeMap<>();
@@ -16,6 +17,9 @@ public class Torneo {
     }
 
     public void agregarParticipante(){
-
+        String nombreParticipante;
+        System.out.println("Ingresa nombre del participante:");
+        nombreParticipante = scan.nextLine();
+        participantes.put()
     }
 }
