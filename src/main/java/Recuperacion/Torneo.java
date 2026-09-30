@@ -8,6 +8,7 @@ public class Torneo{
 
     Scanner scan = new Scanner(System.in);
     public String nombre;
+    Peleador obj1 = new Peleador();
     TreeMap<String, Peleador> participantes = new TreeMap<>();
 
     public String Torneo(){
@@ -17,9 +18,18 @@ public class Torneo{
     }
 
     public void agregarParticipante(){
-        String nombreParticipante;
+        String nombre;
         System.out.println("Ingresa nombre del participante:");
-        nombreParticipante = scan.nextLine();
-        participantes.put()
+        nombre = scan.nextLine();
+
+        participantes.put(nombre, obj1);
+    }
+
+    public void iniciarTorneo(){
+        System.out.println("Iniciando torneo...");
+    }
+
+    public void mostrarParticipantes(){
+        participantes.forEach();
     }
 }

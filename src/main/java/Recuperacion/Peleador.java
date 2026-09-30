@@ -13,6 +13,10 @@ public class Peleador extends Torneo{
         this.habilidadEspecial = habilidadEspecial;
     }
 
+    public Peleador() {
+
+    }
+
     public void setNivelPoder(Long nivelPoder) {
         this.nivelPoder = nivelPoder;
     }
